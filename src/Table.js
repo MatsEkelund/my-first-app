@@ -1,20 +1,15 @@
 import React, {Component} from 'react';
-import TableRow from './TableRow';
 import TableHead from './TableHead';
+import TableBody from './TableBody';
 
 class Table extends Component {
     render() {
-
+        const {characterData} = this.props;
         return(
             <React.Fragment>
             <table>
                     <TableHead/>
-                <tbody>
-                    <TableRow/>
-                    <TableRow/>
-                    <TableRow/>
-                    <TableRow/>
-                </tbody>
+                    <TableBody characterData = {characterData}/>
             </table>
         </React.Fragment>
         )
