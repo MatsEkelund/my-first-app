@@ -1,8 +1,6 @@
-import { render } from '@testing-library/react';
-import React, {Component} from 'react';
+import React from 'react';
 
-class TableHead extends Component {
-    render() {
+const TableHead = () => {
         return(
             <thead>
             <tr>
@@ -11,7 +9,6 @@ class TableHead extends Component {
             </tr>
             </thead>
         );
-    }
 }
 
 export default TableHead;

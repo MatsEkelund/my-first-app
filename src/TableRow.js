@@ -1,14 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class TableRow extends Component {
-    render() {
+const TableRow = () => {
         return(
             <tr>
                 <td>Stina</td>
                 <td>Systemtekniker</td>
             </tr>
         );
-    }
-}
+};
 
 export default TableRow;
