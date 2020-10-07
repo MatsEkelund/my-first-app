@@ -6,12 +6,16 @@ class App extends Component {
         const characters = [
             {
                 name: 'Anna',
-                job: 'developer'
+                job: 'Developer'
             },
             {
                 name: 'Nisse',
                 job: 'Architect'
-            }
+            },
+            {
+                name: 'Mats',
+                job: 'Student'
+            },
         ];
       return (
         <div className="App">
